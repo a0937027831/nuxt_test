@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development cross-env BASE_URL=https://newapi.kanshipinaxsdf.com nuxt dev",
+    "build:uat": "cross-env NODE_ENV=uat cross-env BASE_URL=https://newapi.kanshipinaxsdf.com nuxt build",
+    "build": "cross-env NODE_ENV=production cross-env BASE_URL=https://api.7af902f.com nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/postcss8": "^1.1.3",
+    "@nuxtjs/color-mode": "^3.2.0",
+    "@nuxtjs/i18n": "^8.0.0-beta.10",
+    "@types/node": "^18.13.0",
+    "@vueuse/core": "^9.12.0",
+    "@vueuse/nuxt": "^9.12.0",
+    "autoprefixer": "^10.4.13",
+    "cross-env": "^7.0.3",
+    "nuxt": "^3.1.2",
+    "postcss": "^8.4.21",
+    "sass": "^1.58.0",
+    "sass-loader": "^13.2.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^1.0.6",
+    "@pinia/nuxt": "^0.4.6",
+    "axios": "^1.3.2",
+    "crypto-js": "^4.1.1",
+    "firebase": "^9.17.1",
+    "gsap": "^3.11.4",
+    "pinia": "^2.0.30",
+    "video.js": "^7.21.3",
+    "videojs-contrib-ads": "^6.9.0",
+    "videojs-contrib-quality-levels": "^3.0.0",
+    "videojs-http-source-selector": "^1.1.6",
+    "videojs-ima": "^2.1.0",
+    "videojs-preroll-v2": "^2.0.0"
+  }
+}

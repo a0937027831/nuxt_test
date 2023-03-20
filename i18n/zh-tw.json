@@ -1,0 +1,12 @@
+{
+    "title":"登入",
+    "placeholders":{
+        "username": "使用者",
+        "password": "密碼"
+    },
+    "forgot": "忘記密碼",
+    "checkbox": "記得我",
+    "buttons":{
+        "login":"登入"
+    }
+}
